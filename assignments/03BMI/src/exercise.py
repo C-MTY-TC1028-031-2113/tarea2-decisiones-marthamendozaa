@@ -15,7 +15,8 @@ def main():
         print(str("OBESIDAD"))
     elif indice >= 40:
         print(str("OBESIDAD MORBIDA"))
-    
+
+#no se como hacer que no me dé error cuando es division en 0
     
     
 
