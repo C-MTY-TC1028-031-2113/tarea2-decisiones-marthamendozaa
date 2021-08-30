@@ -9,7 +9,7 @@ def main():
         print("cuadrante 3")
     elif grad > 270 and grad < 360:
         print("cuadrante 4")
-    elif grad == 0 or grad == 360 or grad == 90:
+    elif grad == 0 or grad == 360 or grad == 90 or grad == 180 or grad == 270:
         print("eje")
     elif grad < 0 or grad > 360:
         print("excede")

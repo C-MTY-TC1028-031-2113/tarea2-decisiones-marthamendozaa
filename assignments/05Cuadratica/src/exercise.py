@@ -18,7 +18,7 @@ def main():
         print(x2)
     elif a != 0 and b != 0 and disc < 0:
         print("Raices complejas")
-    elif a != 0 and b != 0 and disc == 0:
+    else:
         d = -b/(2*a)
         print(d)
 
